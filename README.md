@@ -26,7 +26,7 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
-
+the JS was being loaded before the DOM is fully loaded so I moved that code into a 'DOMContentLoaded' Event Listener .
 ```
 
 ## Deliverable 2
